@@ -1,3 +1,1 @@
-export type CreateItensInput = {
-    name: String;
-}
+export type CreateItensInput = {}

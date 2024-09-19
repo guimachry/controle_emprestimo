@@ -1,7 +1,8 @@
 import { ItemRepository } from "../../../domain/repository/item-repository";
+import { TipoItemItemRepository } from "../../../domain/repository/tipo-item-repository";
 
 export class CreateTipoItemUseCAse{
-constructor(readonly itemRepository: ItemRepository){}
+constructor(readonly tipoitemRepository: TipoItemItemRepository){}
 
 execute(){}
 

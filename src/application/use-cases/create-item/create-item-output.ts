@@ -1,3 +1,3 @@
-export type CreateItensOutput = {
+export type CreateItemOutput = {
     name: String;
 }

@@ -1,3 +1,1 @@
-export type CreateEmprestimoInput = {
-    name: String;
-}
+export type CreateEmprestimoInput = {}

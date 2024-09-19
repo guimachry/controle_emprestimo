@@ -1,6 +1,6 @@
 import { ItemRepository } from "../../../domain/repository/item-repository";
-import { GetItensInput } from "./get-itens-input";
-import { GetItensOutput } from "./get-itens-output";
+import { GetItensInput } from "./get-item-input";
+import { GetItensOutput } from "./get-item-output";
 
 export class GetItensUseCase{
 
