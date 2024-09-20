@@ -1,1 +1,5 @@
-export type CreateItemInput = {}
+export type CreateItemInput = {
+
+tipoItemId: string;
+
+}
