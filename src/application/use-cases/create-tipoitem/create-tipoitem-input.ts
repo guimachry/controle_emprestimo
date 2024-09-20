@@ -1,1 +1,1 @@
-export type CreateTipoItenInput = {}
+export type CreateTipoItemInput = {}

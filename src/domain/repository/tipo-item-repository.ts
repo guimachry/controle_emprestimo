@@ -1,6 +1,6 @@
 import { TipoItem } from "../entity/TipoItem";
 
-export interface TipoItemItemRepository{
+export interface TipoItemRepository{
     getall(): TipoItem[];
     getById(id: string): TipoItem;
     create(tipoitem: TipoItem): void;

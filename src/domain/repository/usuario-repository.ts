@@ -7,5 +7,3 @@ export interface UsuarioRepository{
     create(usuario: Usuario): void;
     update(usuario: Usuario): void;
 }
-
-//beleza sobe
