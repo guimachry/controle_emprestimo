@@ -1,6 +1,6 @@
-import { ItemRepository } from "../../domain/repository/item-repository";
 import { PessoaRepository } from "../../domain/repository/pessoa-repository";
 import { CreatePersonUseCase } from "../use-cases/create-person/create-person-usecase";
+import { DeletePersonUseCase } from "../use-cases/delete-person/delete-person-usecase";
 //import { DeletePersonUseCase, DeletePersonUseCAse } from "../use-cases/delete-person/delete-person-usecase";
 import { UpdatePersonUseCase } from "../use-cases/update-person/update-person-usecase";
 
@@ -22,9 +22,12 @@ update(input: any){
     updatePersonUseCase.execute(input);
 }
 
-/*delete(input: any){}
+delete(input: any){
 
-const deletePersonUseCase  = new DeletePersonUseCase(this.personRepository);
-        deleteItemUseCase.execute(input);
-*/
+    const deletePersonUseCase  = new DeletePersonUseCase(this.personRepository);
+    deletePersonUseCase.execute(input);
+}
+
+
+
 }
