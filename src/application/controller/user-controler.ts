@@ -1,8 +1,7 @@
-import { ItemRepository } from "../../domain/repository/item-repository";
+
 import { UsuarioRepository } from "../../domain/repository/usuario-repository";
 import { CreateUserUseCase } from "../use-cases/create-user/create-user-usecase";
 import { DeleteUserUseCAse } from "../use-cases/delete-user/delete-user-usecase";
-import { UpdatePersonUseCase } from "../use-cases/update-person/update-person-usecase";
 import { UpdateUserUseCase } from "../use-cases/update-user/update-user-usecase";
 
 

@@ -2,7 +2,7 @@ import { EmprestimoRepository } from "../../../domain/repository/emprestimo-repo
 import { GetEmprestimoInput } from "../get-emprestimo/get-emprestimo-input";
 import { GetEmprestimoOutput } from "../get-emprestimo/get-emprestimo-output";
 
-export class CreateEmprestimoUseCAse{
+export class CreateEmprestimoUseCase{
 constructor(readonly emprestimoRepository: EmprestimoRepository){}
 
 execute(input: GetEmprestimoInput): GetEmprestimoOutput{
